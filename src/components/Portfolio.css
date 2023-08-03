@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.project-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    justify-content: center;
+}
+
+.project-card {
+    width: 95%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    transition: .5s;
+    border-radius: 5px;
+    position: relative;
+}
+
+.project-name {
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.project-detail {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px 50px ;
+}
+
+.project-body .btn {
+    display: inline-block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.fade-in {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1.25s all ease;
+}
+
+.fade-in.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.project-image {
+    width: 90%;
+    justify-content: center;
+	border-radius: 5px;
+	box-shadow: 2px 4px 6px 0 #c75000;
+}
+
+.project-image:hover {
+	filter: brightness(.75);
+    transform: scale(1.05);
+	box-shadow: 10px 10px 15px #b4559636;
+    transition: .3s;
+}
+
+.project-image-wrapper {
+    width: 100%;
+    padding: 20px;
+}
+
+.dark div a {
+    color: #fffdfa;
+  }
+  
+.light div {
+    color: #2f1000;
+  }
