@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutMe.css';
-import resume from '../jenniferscott-2023.pdf';
+import resume from '../loniscott.pdf';
 
 
 function reveal() {
