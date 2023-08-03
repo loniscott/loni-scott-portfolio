@@ -1,7 +1,7 @@
 import React from 'react';
 import {Navbar} from 'react-bootstrap';
 import {Nav, Container} from 'react-bootstrap';
-import logo from '../icons/favicon.png';
+import logo from '../icons/loni.png';
 import { Link } from 'react-scroll';
 
 
@@ -12,7 +12,7 @@ const Navigation = () => {
             <Navbar className="navbar" expand="lg">
                 <Container>
                     <Navbar.Brand>
-                        Loni Scott
+                        <img src={logo} alt="my logo" style={{ width: 160, height: 40, padding: 1 }} />
                     </Navbar.Brand>
     
                     <Nav className="ml-auto flex-row-3">

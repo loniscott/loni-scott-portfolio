@@ -58,7 +58,7 @@ const Portfolio = () => {
                 Users can find out more information about a Pokemon and search for a particular Pokemon.</p>
                 </div>
             <div className="project-image-wrapper">
-                <a href="https://github.com/jenscotch/pokemon-app">
+                <a href="https://github.com/loniscott/pokemon-app">
 				    <img className="project-image" src={pokemon} alt="pokemon app"/>
                 </a>
             </div>
@@ -73,7 +73,7 @@ const Portfolio = () => {
                 <div className="project-wrapper">
                     <div className="project-body">
                 <h4 className="project-name">
-                    <a className="btn" alt="project button" href="https://jenscotch.github.io/meet/" style={{fontSize: "24px", fontWeight: "bold"}}>Meet App</a>
+                    <a className="btn" alt="project button" href="https://loniscott.github.io/meet/" style={{fontSize: "24px", fontWeight: "bold"}}>Meet App</a>
                 </h4> 
                 <p className="project-detail">Meet is a progressive web app with mobile capabilities, 
                     developed using a test-driven development technique in React. 
@@ -81,7 +81,7 @@ const Portfolio = () => {
                     Users can filter events based on location and/or number of events.</p>
             </div>
 			<div className="project-image-wrapper">
-                <a href="https://github.com/jenscotch/meet">
+                <a href="https://github.com/loniscott/meet">
 				<img className="project-image" src={meet} alt="meet app"/>
                 </a>
             </div>

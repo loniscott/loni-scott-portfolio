@@ -57,7 +57,7 @@ function App() {
           </label>
       <Navigation />
       <header className="App-header">
-        <Home id="home"/>
+        <Home id="home" />
         <AboutMe id="about"/>
         <Portfolio id="portfolio"/>
         <Contact id="contact"/>
@@ -68,10 +68,10 @@ function App() {
           loader={<h4>Loading...</h4>}
           endMessage={
             <p className="flex">
-                    <a href= "https://github.com/jenscotch">
+                    <a href= "https://github.com/loniscott">
                         <img src={Github} alt="Github" />
                     </a>
-                    <a href="https://www.linkedin.com/in/jennifer-scott-84543a1b6/">
+                    <a href="https://www.linkedin.com/in/loni-scott-831aab286/">
                         <img src={LinkedIn} alt="LinkedIn" />
                     </a>
             </p>
