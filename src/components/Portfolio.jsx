@@ -1,6 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
-import movie from '../assets/movie-app.png';
+
 import pokemon from '../assets/pokemon.png';
 import meet from '../assets/meet.png';
 
@@ -26,24 +26,7 @@ const Portfolio = () => {
 
     return (
     <div className="project-container fade-in">
-        <div className="project-card">
-		<div className="project-wrapper">
-            <div className="project-body">
-                <h4 className="project-name">
-                <a className="btn" alt="project button" href="https://jensmovieapp.netlify.app/" style={{fontSize: "24px", fontWeight: "bold"}}>Movie App</a>
-                </h4>
-                <p className="project-detail">A Movie App built using the MERN stack, that allows a user 
-                to sign-up for an account, log into said account, and add movies to their account. Users can also 
-                find out more information about movies, directors, and genres. Movie list provided from a list of 
-                movies generated from a self-built API.</p>
-            </div>
-			<div className="project-image-wrapper">
-                <a href="https://github.com/jenscotch/myFlix-client">
-				    <img class="project-image" src={movie} alt="movie app" />
-                </a>
-			</div>
-        </div>
-        </div>
+        
 
 
 
